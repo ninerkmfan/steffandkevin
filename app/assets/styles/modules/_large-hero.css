@@ -1,0 +1,36 @@
+.large-hero {
+    border-bottom: 10px solid #015858;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__image {
+        grid-column: 1;
+        grid-row: 1;
+
+    img {
+        display: block;
+    }
+    }
+
+    &__text-content {
+        align-self: center;
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    &__title {
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        font-size: 2.4rem;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+}

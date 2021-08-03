@@ -1,0 +1,14 @@
+.site-header {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+    @mixin atMedium {
+        background-color: rgba(255, 255, 255, 0.9)
+    }
+
+    &__btn-container {
+        float: right;
+    }
+}
