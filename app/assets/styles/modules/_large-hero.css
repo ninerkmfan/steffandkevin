@@ -1,5 +1,5 @@
 .large-hero {
-    border-bottom: 10px solid #015858;
+    border-bottom: 10px solid $mainTeal;
     display: grid;
     grid-template-columns: 1fr;
 
@@ -13,7 +13,7 @@
     }
 
     &__text-content {
-        align-self: center;
+        align-self: normal;
         grid-column: 1;
         grid-row: 1;
         text-align: center;
