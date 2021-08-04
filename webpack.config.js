@@ -12,18 +12,10 @@ module.exports = {
     entry: './app/assets/scripts/App.js',
     output: {
         filename: 'bundled.js',
-        path: path.resolve(__dirname)
-    },
-    devServer: {
-        before: function (app, server) {
-            server._watch('*.html')
-        },
-        contentBase: path.join(__dirname),
-        hot: true,
-        port: 3000,
-        host: '0.0.0.0'
+        path: path.resolve(__dirname, 'app')
     },
     mode: 'development',
+    watch: true,
     module: {
         rules: [
             {
