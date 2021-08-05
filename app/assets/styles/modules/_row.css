@@ -1,0 +1,15 @@
+.row {
+
+    @mixin atMedium {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+
+        &__gutters {
+            column-gap: 5.3%;
+        }
+
+        &__medium-6 {
+            grid-column: span 6;
+        }
+    }
+}
