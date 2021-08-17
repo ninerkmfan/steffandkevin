@@ -8,8 +8,17 @@
             column-gap: 5.3%;
         }
 
+        &__medium-8 {
+            grid-column: span 8;
+        }
+        
+        
         &__medium-6 {
             grid-column: span 6;
+        }
+
+        &__medium-4 {
+            grid-column: span 4;
         }
     }
 }
