@@ -1,9 +1,10 @@
 .feature-item {
     position: relative;
-    padding-bottom: 1.75rem;
+    
 
-    @mixin atSmall {
+    @mixin atMedium {
         padding-left: 94px;
+        padding-bottom: 1.75rem;
     }
 
     &__title {
@@ -19,6 +20,10 @@
             margin-top: 1rem;
         }
 
+    }
+
+    &__details {
+        font-size: 1rem;
     }
 
  

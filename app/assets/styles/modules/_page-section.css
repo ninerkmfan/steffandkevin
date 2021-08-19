@@ -5,5 +5,10 @@
         background-color: $mainTeal;
         color: #FFF;
     }
+
+    &__linen {
+        background-color: linen;
+        color: $mainTeal;
+    }
     
 }
