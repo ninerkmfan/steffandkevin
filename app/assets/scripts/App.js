@@ -1,6 +1,8 @@
 import '../styles/styles.css'
 import MobileMenu from './modules/MobileMenu'
+import StickyHeader from './modules/StickyHeader'
 
+let stickyHeader = new StickyHeader()
 new MobileMenu();
 let modal
 

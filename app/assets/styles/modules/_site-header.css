@@ -11,7 +11,13 @@
     }
 
     @mixin atMedium {
-        background-color: rgba(255, 255, 255, 0.9)
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.9);
+
+        &--opaqueSmall {
+            background-color: rgba(255,255,255,1);
+            padding: 2px 0;
+        }
     }
 
     &__btn-container {

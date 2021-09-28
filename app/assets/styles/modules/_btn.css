@@ -1,0 +1,8 @@
+.btn {
+    background-color: $mainTeal;
+    color: white;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    margin-bottom: 30px;
+}

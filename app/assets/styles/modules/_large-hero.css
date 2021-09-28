@@ -33,7 +33,7 @@
         }
 
         @mixin atMedium {
-            padding-top: 100px;
+            padding-top: 30px;
             font-size: 3.75rem;
         }
     }

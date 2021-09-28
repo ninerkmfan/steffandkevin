@@ -2,9 +2,34 @@
     position: relative;
     text-align: left;
     
+    &--dateblock {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        outline: white solid 1px;
+        width: 150px;
+
+        &-dayofweek {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        &-day {
+            display: block;
+            font-size: 3.5rem;
+            font-weight: 400;
+        }
+
+        &-month {
+            display: block;
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+    }
 
     @mixin atMedium {
-        padding-left: 104px;
+        //padding-left: 104px;
         padding-bottom: 1.75rem;
         
     }
@@ -16,8 +41,7 @@
         margin: 0 auto;
 
         @mixin atMedium {
-            position:absolute;
-            left:0;
+            
             
         }
     }
