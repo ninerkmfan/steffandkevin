@@ -21,8 +21,12 @@
         width: 210px;
 
         @mixin atSmall {
-            padding-top:100px;
+            padding-top: 70px;
             width: auto;
+        }
+
+        @mixin atMedium {
+            padding-top:100px;
         }
     }
 

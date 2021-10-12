@@ -1,6 +1,8 @@
 .feature-item {
     position: relative;
     text-align: left;
+    border-bottom: white solid 1px;
+    margin-bottom: 20px;
     
     &--dateblock {
         display: block;
@@ -31,7 +33,7 @@
     @mixin atMedium {
         //padding-left: 104px;
         padding-bottom: 1.75rem;
-        
+        border-bottom: none;
     }
 
     &__icon {

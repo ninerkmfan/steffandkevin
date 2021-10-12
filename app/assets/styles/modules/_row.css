@@ -27,12 +27,23 @@
     &_wts {
         display: grid;
         grid-template-columns: 1fr;
+    
         
 
         @mixin atMedium {
             grid-template-columns: 1fr 1fr 1fr;
             column-gap: 30px;
             text-align: center;
+        }
+    }
+
+    &_wts-item {
+        border-bottom: $mainTeal solid 1px;
+        margin-bottom: 20px;
+
+        @mixin atMedium {
+            border-bottom: none;
+            
         }
     }
 
