@@ -38,8 +38,8 @@
     }
 
     &_wts-item {
-        border-bottom: $mainTeal solid 1px;
-        margin-bottom: 20px;
+        
+        margin-bottom: 40px;
 
         @mixin atMedium {
             border-bottom: none;

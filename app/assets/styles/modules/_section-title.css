@@ -1,7 +1,8 @@
 .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
+    margin-top:0px;
 
     @mixin atSmall {
         
