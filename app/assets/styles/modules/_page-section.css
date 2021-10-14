@@ -11,8 +11,10 @@
         color: $mainTeal;
     }
 
-    &__photo {
+    &__white {
         background-color: white;
     }
+
+
     
 }
