@@ -1,5 +1,5 @@
 .large-hero {
-    border-bottom: 10px solid $mainTeal;
+    //border-bottom: 10px solid $mainTeal;
     display: grid;
     grid-template-columns: 1fr;
 

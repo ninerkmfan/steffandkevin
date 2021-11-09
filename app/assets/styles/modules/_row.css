@@ -78,6 +78,19 @@
         }
     }
 
+    &_reg-alt {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+
+        @mixin atMedium {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 0px;
+            text-align: center;
+        }
+    }
+
     &_reg-item {
         
         margin-bottom: 20px;
@@ -109,6 +122,18 @@
             grid-column-end: 3;
             grid-row-start: 3;
             grid-row-end:4;
+            }
+        }
+
+        &__text-d {
+            padding: 0px 30px;
+            font-size: 1.2em;
+            
+            @mixin atMedium{
+            padding: 0px 15px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+
             }
         }
 
