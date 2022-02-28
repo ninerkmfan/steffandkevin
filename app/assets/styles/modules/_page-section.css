@@ -11,6 +11,11 @@
         color: $mainTeal;
     }
 
+    &__navajowhite {
+        background-color: whitesmoke;
+        color: $mainTeal;
+    }
+
     &__white {
         background-color: white;
     }

@@ -5,6 +5,7 @@ class MobileMenu {
         this.navItem2 = document.querySelector(".nav-item2")
         this.navItem3 = document.querySelector(".nav-item3")
         this.navItem4 = document.querySelector(".nav-item4")
+        this.navItem5 = document.querySelector(".nav-item5")
         this.menuContent = document.querySelector(".site-header__menu-content")
         this.siteHeader = document.querySelector(".site-header")
         this.events()

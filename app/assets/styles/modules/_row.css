@@ -47,6 +47,43 @@
         }
     }
 
+    &_wtd {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+
+        @mixin atMedium {
+            grid-template-columns: .25fr 1.5fr .25fr 1.5fr .25fr;
+            column-gap: 15px;
+            text-align: center;
+        }
+    }
+
+    &_wtd-item {
+        
+        margin-bottom: 0px;
+        text-align:center;
+        font-size:1.25rem;
+
+        ul {
+            
+            display: inline-block;
+            text-align: left;
+        }
+
+        li {
+            padding-top: 15px;
+        }
+
+        
+
+        @mixin atMedium {
+            border-bottom: none;
+            
+        }
+    }
+
     &_info {
         display: grid;
         grid-template-columns: 1fr;
@@ -62,6 +99,8 @@
             
         }
     }
+
+
 
 
     &_reg {
