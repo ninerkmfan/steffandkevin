@@ -18,16 +18,8 @@
         grid-row: 1;
         text-align: center;
         padding-top: 10px;
-        width: 210px;
+        width: auto;
 
-        @mixin atSmall {
-            padding-top: 70px;
-            width: auto;
-        }
-
-        @mixin atMedium {
-            padding-top:100px;
-        }
     }
 
     &__title {
@@ -35,22 +27,9 @@
         font-weight: 300;
         color: $mainTeal;
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 3rem;
 
-        @mixin atSmall {
-            padding-top:0px;
-            font-size: 1.75rem;
-        }
-
-        @mixin atMedium {
-            padding-top: 30px;
-            font-size: 3rem;
-        }
-
-        @mixin atLarge {
-            padding-top: 30px;
-            font-size: 4.25rem;
-        }
+      
     }
 
     &__subtitle {
