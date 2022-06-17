@@ -109,12 +109,12 @@
     
         
 
-        @mixin atMedium {
+        /*@mixin atMedium {
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 65px 1fr 1fr 65px;
             column-gap: 0px;
             text-align: center;
-        }
+        }*/
     }
 
     &_reg-alt {
