@@ -3,15 +3,6 @@
     display: grid;
     grid-template-columns: 1fr;
 
-    &__image {
-        grid-column: 1;
-        grid-row: 1;
-
-    img {
-        display: block;
-    }
-    }
-
     &__text-content {
         align-self: normal;
         grid-column: 1;
@@ -37,15 +28,9 @@
         color: $mainTeal;
         margin: 0;
         font-size: 1.25rem;
+        text-align:center;
 
-        @mixin atSmall {
-            
-            font-size: 1.75rem;
-        }
 
-        @mixin atMedium {
-           font-size: 2.5rem;
-        }
     }
 
 }

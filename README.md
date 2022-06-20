@@ -1,2 +1,2 @@
-# steffandkevin.github.io
-Wedding site for Steff and Kevin
+# breatheintomassage.github.io
+Business site for Breathe Into Massage

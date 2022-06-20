@@ -3,8 +3,7 @@
     grid-template-columns: 1fr;
 
     @mixin atMedium {
-        grid-template-columns: 3fr 1fr;
-        column-gap: 50px;
+        grid-template-columns: 1fr;
 
         &__gutters {
             column-gap: 5.3%;
