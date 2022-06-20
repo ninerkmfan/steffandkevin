@@ -2,13 +2,20 @@
     font-size: 2.5rem;
     font-weight: 300;
     text-align: center;
-    margin-top:50px;
+    margin-top:0px;
 
+    @mixin atSmall {
+        
+    }
 
+    strong {
+        font-weight: 500;
+    }
 }
 
-.section-subtitle {
-    font-size: 1.75rem;
+.section-title-welcome {
+    font-size: 2.25rem;
+    padding-top:0px;
     font-weight: 300;
     text-align:center;
 }
